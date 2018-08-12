@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/test"
+        android:enabled="true">
+    <item android:id="@+id/edit_profile"
+    android:title="ویرایش حساب کاربری"
+    />
+    <item android:id="@+id/setting_call"
+
+        android:title="تنظیمات تماس"
+        />
+    <item android:id="@+id/ghavanin"
+
+        android:title="قوانین و مقررات"
+        />
+    </group>
+    <group android:checkableBehavior="single">
+
+
+    <item android:id="@+id/poshtibani"
+        android:orderInCategory="1"
+        android:title="پشتیبانی"
+        />
+    <item android:id="@+id/darbarehma"
+        android:orderInCategory="1"
+        android:title="درباره ما"
+        />
+    </group>
+
+</menu>

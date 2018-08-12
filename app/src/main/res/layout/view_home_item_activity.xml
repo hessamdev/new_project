@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewHomeItem">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:elevation="3dp"
+        android:background="@color/sefid">
+        <ImageView
+            android:id="@+id/Viewhomeitem_Imageview_Backarrow"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:padding="12dp"
+            android:src="@drawable/back_arrow"/>
+
+        <TextView
+            android:id="@+id/Viewhomeitem_TextView_Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/Viewhomeitem_Imageview_Backarrow"
+            android:text="تیتر"
+            android:paddingEnd="10dp"
+            android:background="@color/sefid"
+            android:textSize="18sp"
+            />
+
+
+
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/Viewhomeitem_FrameLayout_View"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

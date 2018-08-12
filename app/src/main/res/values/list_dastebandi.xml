@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="nan_ghalat_hoboobat" >
+        <item>"برنج"</item>
+        <item>"نان"</item>
+        <item>"گندم"</item>
+        <item>"جو"</item>
+        <item>"ذرت"</item>
+        <item>"حبوبات"</item>
+        <item>"سویا"</item>
+        <item>"سایر"</item>
+    </array>
+
+
+    <array name="Reshteha" >
+        <item>"ماکارونی"</item>
+        <item>"رشته آش و سوپ"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Ghand_shekar" >
+        <item>"قند"</item>
+        <item>"شکر"</item>
+        <item>"سایر"</item>
+    </array>
+
+
+
+    <array name="Roghan" >
+        <item>"روغن مایع"</item>
+        <item>"روغن جامد"</item>
+        <item>"سایر"</item>
+    </array>
+
+
+    <array name="Porotoein" >
+        <item>"اجزای گوسفند"</item>
+        <item>"اجزای گاو و گوساله"</item>
+        <item>"اجزای مرغ و سایر پرندگان"</item>
+        <item>"ماهی ، میگو و خاویار"</item>
+        <item>"سوسیس و کالباس"</item>
+        <item>"تخم مرغ ، بلدرچین و شترمرغ"</item>
+        <item>"قارچ"</item>
+        <item>"سایر"</item>
+    </array>
+
+
+    <array name="Labaniyat" >
+        <item>"شیر"</item>
+        <item>"ماست"</item>
+        <item>"کره"</item>
+        <item>"پنیر"</item>
+        <item>"خامه"</item>
+        <item>"کشک"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Miveh_sabzijat" >
+        <item>"میوه ها"</item>
+        <item>"صیفی و سبزیجات"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Nooshidaniha" >
+        <item>"شربت و آبمیوه"</item>
+        <item>"نوشابه و ماءالشعیر"</item>
+        <item>"دوغ"</item>
+        <item>"آب معدنی"</item>
+        <item>"قهوه"</item>
+        <item>"چای و دمنوش"</item>
+        <item>"عرقیات"</item>
+        <item>"سایر"</item>
+    </array>
+
+
+    <array name="Tanagholat" >
+        <item>"شکلات و آبنبات"</item>
+        <item>"بیسکوئیت"</item>
+        <item>"مغز و تخمه"</item>
+        <item>"کیک و کلوچه"</item>
+        <item>"آلوچه و لواشک"</item>
+        <item>"آدامس"</item>
+        <item>"پاستیل"</item>
+        <item>"پودر کیک و ژله"</item>
+        <item>"پشمک"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Chashni_Afzoodani" >
+        <item>"سس"</item>
+        <item>"آبلیمو،آبغوره و سرکه"</item>
+        <item>"آبلیمو،آبغوره و سرکه"</item>
+        <item>"زعفران،زرشک و لیمو عمانی"</item>
+        <item>"ادویه و نمک"</item>
+        <item>"ارد ، نشاسته"</item>
+        <item>"چاشنی و عصاره"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Moraba_asal_shireh" >
+        <item>"مربا"</item>
+        <item>"عسل"</item>
+        <item>"شیره"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Ajil_shirini_khoshkbar" >
+        <item>"آجیل"</item>
+        <item>"خشکبار"</item>
+        <item>"شیرینی"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Shooyandeh_behdashti" >
+        <item>"شوینده ظروف"</item>
+        <item>"شوینده لباس"</item>
+        <item>"پاک کننده سطوح و لکه بر"</item>
+        <item>"پنبه، دستمال"</item>
+        <item>"بهداشت کودک و سالمند"</item>
+        <item>"بهداشت دهان"</item>
+        <item>"بهداشت بدن و صورت"</item>
+        <item>"بهداشت و شست و شوی مو"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Arayeshi" >
+        <item>"عطر ، ادکلن و اسپری"</item>
+        <item>"آرایش صورت"</item>
+        <item>"آرایش چشم"</item>
+        <item>"آرایش لب"</item>
+        <item>"آرایش ناخن"</item>
+        <item>"محصولات پوست"</item>
+        <item>"آرایش مو"</item>
+        <item>"لوازم شخصی برقی"</item>
+        <item>"لوازم شخصی غیر برقی"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Farhangi_Sargarmi" >
+        <item>"فیلم و سریال"</item>
+        <item>"لوازم التحریر"</item>
+        <item>"کتاب"</item>
+        <item>"اسباب بازی"</item>
+        <item>"سایر"</item>
+    </array>
+
+    <array name="Malzoomat_khanedari" >
+        <item>"واکس ، چسب و کبریت"</item>
+        <item>"ابزار نطافت و نگهداری منزل"</item>
+        <item>"ظروف پلاستیکی و یکبارمصرف"</item>
+        <item>"ابزار برقی و غیر برقی"</item>
+        <item>"سفره و کیسه"</item>
+        <item>"لوازم آشپزخانه"</item>
+        <item>"خشبو کننده"</item>
+        <item>"سایر"</item>
+    </array>
+    
+</resources>

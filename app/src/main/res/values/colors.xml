@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#dedede</color>
+    <color name="colorAccent">#f5f5f5</color>
+
+    <color name="sefid">#fff</color>
+
+
+
+    <color name="c100">#FAFAFA</color>
+    <color name="c200">#F5F5F5</color>
+    <color name="c300">#E0E0E0</color>
+    <color name="c400">#BDBDBD</color>
+    <color name="c500">#9E9E9E</color>
+    <color name="c600">#757575</color>
+    <color name="c700">#616161</color>
+    <color name="c800">#424242</color>
+    <color name="c900">#212121</color>
+
+
+
+    <color name="c700_alfa">#00616161</color>
+
+    <color name="narengi">#FF5722</color>
+    <color name="gahveeiroshan">#BCAAA4</color>
+
+</resources>

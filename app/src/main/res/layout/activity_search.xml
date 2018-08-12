@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <RelativeLayout
+        android:id="@+id/toolbar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:elevation="3dp"
+        android:background="@color/sefid"
+        >
+        <ImageView
+            android:id="@+id/Search_Imageview_Backarrow"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:padding="12dp"
+            android:src="@drawable/back_arrow"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/Search_Imageview_Search"
+            android:layout_toStartOf="@id/Search_Imageview_Backarrow"
+            android:paddingEnd="10dp"
+            android:background="@color/sefid"
+            android:hint="جستوجو"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:id="@+id/Search_Imageview_Search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:padding="12dp"
+            android:src="@drawable/search"
+        />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
