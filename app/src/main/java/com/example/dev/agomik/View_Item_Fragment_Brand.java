@@ -129,7 +129,7 @@ public class View_Item_Fragment_Brand extends Fragment {
 
     public void OnClick_Brand(){
         Intent intent=new Intent(getActivity(),View_Item.class);
-        intent.putExtra("ViewFragment","Brand");
+        intent.putExtra("ViewFragment","kala");
         startActivity(intent);
     }
 
@@ -173,8 +173,6 @@ public class View_Item_Fragment_Brand extends Fragment {
                 Home_RecyclerShop Model = listgrid.get(position);
                 grid = inflater.inflate(R.layout.z_m_home_recyclershop_kala, null);
                 CircleImageView imageView=(CircleImageView) grid.findViewById(R.id.z_model_rexyclershop_ImageView_kala);
-                TextView textView = (TextView) grid.findViewById(R.id.z_model_rexyclershop_TextView_Rate_kala);
-                textView.setText(Model.getRate());
                 Picasso.get().load(Model.getImage()).resize(500,500).into(imageView);
 
             } else {

@@ -44,9 +44,13 @@ public class View_Item extends AppCompatActivity {
                 fragment = new View_Item_Fragment_Brand();
                 TitleHeder.setText("برند");
                 break;
-            case "Poremtiyaz":
-                fragment=new ViewHomeItem_Fragment_Poremtyaz();
-                TitleHeder.setText("پرامتیازترینها");
+            case "kala":
+                fragment=new View_Item_Fragment_kala();
+                TitleHeder.setText("کالا");
+                break;
+                case "Sherkat":
+                fragment=new View_Item_Fragment_Sherkat();
+                TitleHeder.setText("شرکت");
                 break;
         }
         if (fragment != null) {

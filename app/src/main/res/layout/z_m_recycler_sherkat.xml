@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:paddingBottom="5dp"
+    android:fitsSystemWindows="true"
+    app:cardCornerRadius="20dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="3dp"
+                android:src="@drawable/call2" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:visibility="visible"
+                android:layout_centerInParent="true"
+                android:background="@drawable/sayehpng"
+                android:paddingLeft="10dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+        android:gravity="center"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:src="@drawable/share3"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="اشتراک"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/takhalof2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="گزارش"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/bookmark"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="مارک"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/star2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="4.5"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/call5"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="210"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/payment2"
+                />
+            <TextView
+                android:id="@+id/pardakht"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="نقدی یا چکی"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/tahvil2"
+                />
+            <TextView
+                android:id="@+id/tahvil"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="2 تا 3 روز"
+                android:textSize="10sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:gravity="center">
+        <RelativeLayout
+
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Kala_CircleImageview_Heder"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="12dp"
+             />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:background="@drawable/sayehpng"
+            android:paddingLeft="10dp" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/gheymat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:text="500000"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

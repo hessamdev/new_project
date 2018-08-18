@@ -16,8 +16,19 @@
         <item name="android:textColor">@color/c300</item>
 
     </style>
-    
 
+    <style name="BackgraoundColors_1">
+        <item name="android:background">@color/c800</item>
+    </style>
+
+    <style name="BackgraoundColors_2" parent="Theme.AppCompat.Light">
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

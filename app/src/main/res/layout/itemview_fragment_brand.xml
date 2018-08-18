@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,9 +15,38 @@
         android:orientation="vertical"
         >
 
+        <include layout="@layout/z_n_heder_brand"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/c200"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Brand_Recycler_Dastebandi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_gravity="center"
+            android:background="@color/c100"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/c200"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="160dp"
+            android:visibility="gone"
             >
 
 <android.support.v7.widget.CardView
@@ -29,7 +58,6 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:orientation="vertical"
-        android:elevation="5dp"
         android:weightSum="6"
 
 
@@ -40,16 +68,13 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="4.1"
+            android:weightSum="3"
+            android:baselineAligned="false"
             android:orientation="horizontal"
             android:background="@color/sefid"
             >
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="4.1"
-                android:orientation="horizontal"
-                android:background="@color/sefid">
+
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -140,7 +165,7 @@
                 </LinearLayout>
 
             </LinearLayout>
-            </LinearLayout>
+
 
 
 
@@ -156,12 +181,7 @@
 
             >
 
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/Brand_Recycler_Dastebandi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-             />
+
 
 
 
@@ -178,7 +198,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:numColumns="auto_fit"
-        android:columnWidth="100dp"
+        android:columnWidth="150dp"
         android:stretchMode="columnWidth"
         android:gravity="center"
         android:foregroundGravity="center"
@@ -193,4 +213,4 @@
 
 
 
-</LinearLayout>
+</RelativeLayout>

@@ -18,7 +18,9 @@
     <color name="c800">#424242</color>
     <color name="c900">#212121</color>
 
+    <color name="c100_alpha170">#aafafafa</color>
 
+    <color name="c400_alpha50">#32bdbdbd</color>
 
     <color name="c700_alfa">#00616161</color>
 

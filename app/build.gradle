@@ -36,6 +36,12 @@ dependencies {
     api 'de.hdodenhof:circleimageview:2.2.0'
     api 'com.ss.bannerslider:bannerslider:2.0.0'
 
+    //leak
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    // Optional, if you use support library fragments:
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
+
 }
 repositories {
     mavenCentral()

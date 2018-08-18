@@ -23,6 +23,9 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class MainActivity extends AppCompatActivity {
 
 
+    //leak
+
+
     private ImageView search_;
     CircleImageView hederdrawer;
     private ImageView drawer;
@@ -98,11 +101,9 @@ public class MainActivity extends AppCompatActivity {
                     Fragment selectfragment = null;
 
                     switch (item.getItemId()){
-
                         case R.id.nav_home:
                             selectfragment=new MainFragment_Home();
                             break;
-
                         case R.id.nav_dastebandi:
                             selectfragment = new MainFragment_dastebandi();
                             break;
@@ -110,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
                             selectfragment=new MainFragment_gozaresh();
 
                     }
-
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectfragment).commit();
 
                     return true;
